@@ -52,5 +52,3 @@ def add_s(array)
   end
   plural
 end
-    
-    
