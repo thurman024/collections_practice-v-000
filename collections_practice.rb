@@ -3,5 +3,5 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  desc_array = array.sort.reverse 
+  desc_array = array.sort.reverse
 end
