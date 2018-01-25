@@ -32,6 +32,7 @@ def kesha_maker(array)
     #new_word = word.join()
     kesha_array << word
   end
+  kesha_array
 end
 
 def find_a(array)
