@@ -44,8 +44,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index do |element, i|
-    plural = []
+  plural = []
+  array.each_with_index do |element, i|    
     if i != 1
       plural << element + "s"
     end
