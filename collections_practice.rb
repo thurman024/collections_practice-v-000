@@ -48,6 +48,8 @@ def add_s(array)
   array.each_with_index do |element, i|    
     if i != 1
       plural << element + "s"
+    else
+      plural << element
     end
   end
   plural
