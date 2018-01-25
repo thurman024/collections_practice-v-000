@@ -33,3 +33,7 @@ def kesha_maker(array)
     kesha_array << new_word
   end
 end
+
+def find_a(array)
+  array.select {|x| x.start_with?("a")}
+end
