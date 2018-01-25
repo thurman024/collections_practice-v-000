@@ -29,7 +29,7 @@ def kesha_maker(array)
   array.each do |word|
     word.split
     word[2] = "$"
-    new_word = word.join
+    new_word = word.join()
     kesha_array << new_word
   end
 end
